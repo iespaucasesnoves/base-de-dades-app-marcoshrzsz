@@ -99,8 +99,10 @@ public class HelperVi extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_TIPUS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_VI);
 
-
+        onCreate(db);
     }
+
+
 
 
 }
